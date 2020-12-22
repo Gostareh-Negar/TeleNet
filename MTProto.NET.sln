@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTProto.NET", "MTProto.NET\MTProto.NET.csproj", "{BDCC7327-1EE1-4BAE-A849-3D28A8EED373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTProto.NET.Server", "MTProto.Net.Server\MTProto.NET.Server.csproj", "{401CC320-098B-4674-A423-118AF4A951DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramServer", "TelegramServer\TelegramServer.csproj", "{05FD24C5-479B-4941-9C6F-9DA9D9668B7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTProto.Server.Tests", "MTProto.Server.Tests\MTProto.Server.Tests.csproj", "{ABB26C6F-C980-4C62-9B4C-E100038C9414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram.Server", "Telegram.Server\Telegram.Server.csproj", "{4A2CED1A-9213-4352-9D46-6E48E94F5A9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTProto.NET.Server.Implementations", "MTProto.Net.Server.Implementations\MTProto.NET.Server.Implementations.csproj", "{F604E32B-DBDE-4A90-A50A-13946BAB69E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTProto.Net.Server.UI.webogram", "MTProto.Net.Server.UI.webogram\MTProto.Net.Server.UI.webogram.csproj", "{22ADC3B9-D4F8-44AB-8C97-25E9A7FB958C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCC7327-1EE1-4BAE-A849-3D28A8EED373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCC7327-1EE1-4BAE-A849-3D28A8EED373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCC7327-1EE1-4BAE-A849-3D28A8EED373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCC7327-1EE1-4BAE-A849-3D28A8EED373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401CC320-098B-4674-A423-118AF4A951DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401CC320-098B-4674-A423-118AF4A951DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401CC320-098B-4674-A423-118AF4A951DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401CC320-098B-4674-A423-118AF4A951DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FD24C5-479B-4941-9C6F-9DA9D9668B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FD24C5-479B-4941-9C6F-9DA9D9668B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FD24C5-479B-4941-9C6F-9DA9D9668B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FD24C5-479B-4941-9C6F-9DA9D9668B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB26C6F-C980-4C62-9B4C-E100038C9414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB26C6F-C980-4C62-9B4C-E100038C9414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB26C6F-C980-4C62-9B4C-E100038C9414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB26C6F-C980-4C62-9B4C-E100038C9414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2CED1A-9213-4352-9D46-6E48E94F5A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2CED1A-9213-4352-9D46-6E48E94F5A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2CED1A-9213-4352-9D46-6E48E94F5A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2CED1A-9213-4352-9D46-6E48E94F5A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F604E32B-DBDE-4A90-A50A-13946BAB69E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F604E32B-DBDE-4A90-A50A-13946BAB69E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F604E32B-DBDE-4A90-A50A-13946BAB69E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F604E32B-DBDE-4A90-A50A-13946BAB69E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22ADC3B9-D4F8-44AB-8C97-25E9A7FB958C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ADC3B9-D4F8-44AB-8C97-25E9A7FB958C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ADC3B9-D4F8-44AB-8C97-25E9A7FB958C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ADC3B9-D4F8-44AB-8C97-25E9A7FB958C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B0CB7A3-4E26-426F-B968-DE3B736409DE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.0.32:8080/tfs/gn
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MTProto.NET\\MTProto.NET.csproj
+		SccProjectName1 = MTProto.NET
+		SccLocalPath1 = MTProto.NET
+		SccProjectUniqueName2 = MTProto.Net.Server\\MTProto.NET.Server.csproj
+		SccProjectName2 = MTProto.Net.Server
+		SccLocalPath2 = MTProto.Net.Server
+		SccProjectUniqueName3 = TelegramServer\\TelegramServer.csproj
+		SccProjectName3 = TelegramServer
+		SccLocalPath3 = TelegramServer
+		SccProjectUniqueName4 = MTProto.Server.Tests\\MTProto.Server.Tests.csproj
+		SccProjectName4 = MTProto.Server.Tests
+		SccLocalPath4 = MTProto.Server.Tests
+		SccProjectUniqueName5 = Telegram.Server\\Telegram.Server.csproj
+		SccProjectName5 = Telegram.Server
+		SccLocalPath5 = Telegram.Server
+		SccProjectUniqueName6 = MTProto.Net.Server.Implementations\\MTProto.NET.Server.Implementations.csproj
+		SccProjectName6 = MTProto.Net.Server.Implementations
+		SccLocalPath6 = MTProto.Net.Server.Implementations
+		SccProjectUniqueName7 = MTProto.Net.Server.UI.webogram\\MTProto.Net.Server.UI.webogram.csproj
+		SccProjectName7 = MTProto.Net.Server.UI.webogram
+		SccLocalPath7 = MTProto.Net.Server.UI.webogram
+	EndGlobalSection
+EndGlobal

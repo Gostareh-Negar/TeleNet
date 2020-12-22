@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="webogarm\dist\**" />
+    <Compile Remove="webogram\dist\**" />
+    <None Remove="webogram\dist\**" />
+    <Compile Remove="webogram\node_modules\**" />
+    <Content Remove="webogram\dist\**" />
+    <EmbeddedResource Remove="webogram\dist\**" />
+    <None Remove="webogram\node_modules\**" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="webogram\" />
+  </ItemGroup>
+
+</Project>
